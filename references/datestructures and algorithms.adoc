@@ -1,0 +1,83 @@
+//头部格式是固定的
+= datestructures and algorithms
+Huang Zhong <1107123700@qq.com>
+1.0, November 1, 2024: Initial version
+//版本号
+:revnumber: 0.0.1
+:toc: macro
+:icons: font
+:toclevels: 1
+:toc-title: Contents
+
+
+== Introduction
+
+This chapter will cover the various data structures and algorithms used in the project.
+
+
+== Date Structures
+=== Arrays
+
+Arrays are used to store a fixed-size sequential collection of elements of the same type. Arrays are used to store and manipulate large amounts of data efficiently. In Java, arrays are implemented as objects and can be of any type.
+
+* `static arrays`: fixed-size arrays that are declared and initialized at compile-time.
+* `dynamic arrays`: arrays that can be resized at runtime.
+* `ArrayList`: dynamic arrays that are implemented using an ArrayList class in Java.
+
+
+=== Linked Lists
+
+Linked lists are a type of data structure that consists of a sequence of nodes, where each node contains a data element and a reference to the next node in the sequence. Linked lists are used to store and manipulate large amounts of data efficiently. In Java, linked lists are implemented using the LinkedList class.
+
+* `Singly linked lists`: linked lists where each node contains a reference to the next node in the sequence, but not to the previous node.
+* `Doubly linked lists`: linked lists where each node contains a reference to the next node and the previous node in the sequence.
+* `Circular linked lists`: linked lists where the last node in the sequence points back to the first node.
+
+=== Queues
+Queues are a type of data structure that consists of a sequence of elements, where the first element added to the queue is the first one to be removed. Queues are used to store and manipulate data in a first-in-first-out (FIFO) manner. In Java, queues are implemented using the Queue interface.
+
+* `Priority Queues`: queues where elements are sorted based on a priority value.
+* `Deque`: double-ended queues that can be used to add and remove elements from both ends of the queue.
+* `Circular Queues`: queues where the last element added to the queue is the first one to be removed.
+* `Double-ended Queues`: queues where elements can be added and removed from both ends of the queue.
+* `Circular Double-ended Queues`: queues where the last element added to the queue is the first one to be removed, and elements can be added and removed from both ends of the queue.
+
+
+=== Stacks
+
+Stacks are a type of data structure that consists of a sequence of elements, where the last element added to the stack is the first one to be removed. Stacks are used to store and manipulate data in a last-in-first-out (LIFO) manner. In Java, stacks are implemented using the Stack interface.
+
+* `Array-based stacks`: stacks implemented using an array.
+* `Linked-list stacks`: stacks implemented using a linked list.
+
+=== Trees
+
+Trees are a type of data structure that consists of a root node and a set of child nodes, where each child node is connected to its parent node by a branch. Trees are used to store and manipulate hierarchical data. In Java, trees are implemented using the TreeNode class.
+
+* `Binary search trees`: trees where each node has at most two child nodes, and the left child node contains a value less than the parent node, and the right child node contains a value greater than the parent node.
+* `AVL trees`: balanced binary search trees that maintain a balance factor, which is the difference between the heights of the left and right subtrees.
+* `Red-black trees`: self-balancing binary search trees that maintain a balance factor, which is the difference between the number of black nodes on the left and right subtrees.
+* `B- trees`: balanced search trees that can be used to store and retrieve data efficiently.
+* `B+ trees`: balanced search trees that can be used to store and retrieve data efficiently.
+
+
+=== Hash Tables
+
+Hash tables are a type of data structure that uses a hash function to map keys to values. Hash tables are used to store and retrieve data quickly. In Java, hash tables are implemented using the HashMap class.
+
+* `Separate chaining`: a hash table implementation where each bucket contains a linked list of key-value pairs.
+* `Open addressing`: a hash table implementation where each bucket contains a single key-value pair, and when a collision occurs, the algorithm searches for the next available bucket.
+* `Robin Hood hashing`: a hash table implementation where each bucket contains a single key-value pair, and when a collision occurs, the algorithm searches for the next available bucket, using a rotation algorithm to avoid clustering.
+* `Cuckoo hashing`: a hash table implementation where each bucket contains a single key-value pair, and when a collision occurs, the algorithm searches for the next available bucket, using a rehashing algorithm to avoid clustering.
+
+=== Graphs
+
+Graphs are a type of data structure that consists of a set of vertices and edges, where each edge connects two vertices. Graphs are used to represent complex relationships between objects. In Java, graphs are implemented using the Graph class.
+
+* `Depth-first search (DFS)`: a recursive algorithm that traverses a graph or tree data structure in a depth-first order.
+* `Breadth-first search (BFS)`: a non-recursive algorithm that traverses a graph or tree data structure in a breadth-first order.
+* `Topological sort`: a non-recursive algorithm that sorts a graph or tree data structure based on its topological order.
+
+== Algorithms
+
+see<<Date Structures>>
